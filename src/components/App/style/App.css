@@ -1,0 +1,52 @@
+.post-enter {
+    transform: translateX(-450px);  }
+.post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+.post-exit {
+    opacity: 1;
+  }
+.post-exit-active {
+    transform: translateX(-450px);
+    transition: all 500ms ease-in;
+  }
+
+  .post__btn{
+    display: flex;
+    gap: 10px;
+  }
+
+  .page__wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .page{
+    padding: 10px 15px;
+    border: 1px solid teal;
+    cursor: pointer;
+  }
+
+  .page__current{
+    border: 2px solid orange;
+    font-weight: bold;
+  }
+
+  .navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    justify-content: center;
+    gap: 20px;
+    background-color: silver;
+    margin:  -10px 0px 10px 0px;
+  }
+
+  .navbar__links {
+    margin-left: auto;
+
+  }

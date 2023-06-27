@@ -1,0 +1,14 @@
+.posts{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    width: 800px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 5px;
+}
